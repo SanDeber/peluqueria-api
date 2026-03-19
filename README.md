@@ -2,7 +2,7 @@
 
 API REST para la gestión de turnos de una peluquería, desarrollada con **Python** y **FastAPI**.
 
-## 🚀 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - **Python 3.11**
 - **FastAPI** — Framework web moderno y de alto rendimiento
@@ -12,17 +12,17 @@ API REST para la gestión de turnos de una peluquería, desarrollada con **Pytho
 - **Pydantic** — Validación de datos
 - **Uvicorn** — Servidor ASGI
 
-## ✨ Funcionalidades
+## Funcionalidades
 
-- ✅ Registro y login de usuarios con JWT
-- ✅ Endpoints protegidos por autenticación
-- ✅ CRUD completo de clientes
-- ✅ Creación y listado de turnos
-- ✅ Cancelación de turnos
-- ✅ Validación de doble reserva en la misma fecha y hora
-- ✅ Documentación automática con Swagger UI
+- Registro y login de usuarios con JWT
+- Endpoints protegidos por autenticación
+- CRUD completo de clientes
+- Creación y listado de turnos
+- Cancelación de turnos
+- Validación de doble reserva en la misma fecha y hora
+- Documentación automática con Swagger UI
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 ```
 peluqueria-api/
 │
@@ -43,7 +43,7 @@ peluqueria-api/
 └── README.md
 ```
 
-## ⚙️ Instalación
+## Instalación
 ```bash
 # 1. Clonar el repositorio
 git clone https://github.com/tu-usuario/peluqueria-api.git
@@ -60,21 +60,21 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
 
-## 📖 Documentación
+## Documentación
 
 Una vez corriendo el servidor, accedé a:
 
 - Swagger UI → http://127.0.0.1:8000/docs
 - ReDoc → http://127.0.0.1:8000/redoc
 
-## 🔐 Cómo usar la autenticación
+## Cómo usar la autenticación
 
 1. Registrarse en `POST /auth/registro`
 2. Loguearse en `POST /auth/login` para obtener el token
 3. Hacer click en el botón **Authorize** en el Swagger
 4. Pegar el token y ya podés usar todos los endpoints
 
-## 📬 Endpoints principales
+## Endpoints principales
 
 | Método | Endpoint | Descripción | Auth |
 |--------|----------|-------------|------|
@@ -86,7 +86,7 @@ Una vez corriendo el servidor, accedé a:
 | GET | `/turnos` | Listar turnos | ✅ |
 | PATCH | `/turnos/{id}/cancelar` | Cancelar turno | ✅ |
 
-## 👨‍💻 Autor
+## SanDeber
 
 **Debernardi Santino**  
 Estudiante de Programación — UTN  
